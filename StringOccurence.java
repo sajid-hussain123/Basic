@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class StringOccurence {
     public static void main(String[] args) {
-        String str= "Google";
+        String str= "Google.com";
         HashMap<Character,Long> count = new HashMap<>();
 
         for(int i=str.length()-1;i>=0;i--){
